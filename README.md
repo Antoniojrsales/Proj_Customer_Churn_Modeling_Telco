@@ -34,8 +34,10 @@ Este projeto foi construído utilizando as seguintes ferramentas e bibliotecas:
 
 * **Python 3.x**
 * **Pandas:** Para manipulação e processamento de dados.
+* **Numpy:** Para suporte a grandes arrays e matrizes multidimensionais, juntamente com uma coleção de funções matemáticas de alto nível para operar nesses arrays. 
+* **Jupyter:** Para documentação passo a passo do projeto (EDA e Modelagem).
 * **Plotly:** Para a geração de gráficos de alta qualidade e interativos.
-* **Scikit-learn:** Para a fase de Modelagem (ML).
+* **Scikit-learn:** Para a fase de Modelagem de classificação (Regressão Logística, Random Forest, XGBoost), avaliação de métricas (Acurácia, Precisão, Recall, F1, AUC-ROC).
 
 ## ⚙️ Como Instalar e Rodar o Projeto
 Para executar a aplicação em sua máquina local, siga os passos abaixo:
@@ -48,8 +50,15 @@ cd Proj_Customer_Churn_Modeling_Telco
 
 # Crie e ative o ambiente virtual
 python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
+-nix/Linux: venv/bin/activate  
+-Windows: venv\Scripts\activate
 
-# Instale as dependências
+## Instale as dependências
 pip install -r requirements.txt
 ```
+
+## 🚧 Próximas Etapas (Roadmap)
+- [ ] Concluir a Análise Exploratória de Dados (EDA).
+- [ ] Realizar o Pré-processamento e Feature Engineering.
+- [ ] Treinar e avaliar modelos de Machine Learning (Classificação).
+- [ ] Documentar o modelo final e os principais insights.
